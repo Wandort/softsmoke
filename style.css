@@ -1,4 +1,19 @@
 .lorem{
     text-align: center;
     color: aqua;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
+
+.img{
+    width: 70px;
+    margin: 30px auto;
+}
+
+body{
+    font-family: 'Mobtserrat', sans-serif;
+    font-weight: 200;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+
