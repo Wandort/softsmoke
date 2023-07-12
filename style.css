@@ -35,27 +35,22 @@ p{
 }
 
 button{
-    width: 200px;
-    height: 60px;
-    background-color: #e74c3c;
-    color: #ffffff;
-    border: none;
+    border: 0;
     border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
+    margin-top: 50px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500px;
     cursor: pointer;
+    transition: all 500ms ease;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
 }
 
 button:hover{
     background: var(--tg-theme-secondary-bg-color);
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Высота контейнера будет равна высоте видимой части окна */
 }
