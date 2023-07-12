@@ -17,3 +17,31 @@ body{
     background: var(--tg-theme-bg-color);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    width: 350px;
+    margin: 0 auto;
+}
+
+button{
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500px;
+    cursor: pointer;
+    transition: all 500ms ease;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+
+button:hover{
+    background: var(--tg-theme-secondary-bg-color);
+}
