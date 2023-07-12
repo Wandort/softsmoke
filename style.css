@@ -1,13 +1,19 @@
 .lorem{
-    text-align: center;
     color: aqua;
     margin-top: 50px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img{
     width: 70px;
     margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 body{
@@ -38,6 +44,9 @@ button{
     font-weight: 500px;
     cursor: pointer;
     transition: all 500ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
 }
