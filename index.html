@@ -16,6 +16,7 @@
         <button id="buy">Купить</button>
     </div>
     <form id="form">
+        
         <input type="text" placeholder="Имя" id="user_name">
         <input type="text" placeholder="Email" id="user_email">
         <input type="text" placeholder="Телефон" id="user_phone">
@@ -28,10 +29,30 @@
         let order = document.getElementById("order");
 
         buy.addEventListener("click", () => {
+
             document.getElementById("main").style.display = "none";
             document.getElementById("form").style.display = "block";
-            document.getElementById("user_name").value = tg.initDataUnsafe.first_name + " " + tg.initDataUnsafe.last_name;
+            document.getElementById("user_name").value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
+        })
 
+        order.addEventListener("click", () => {
+            document.getElementById("error").innerText = '';
+            let name = document.getElementById("user_name").value
+            let Email = document.getElementById("user_Email").value
+            let phone = document.getElementById("user_phone").value
+            if(name.length < 5) {
+                document.getElementById("error").innerText = 'Ошибка в имени';
+                return;
+            }
+            if(Email.length < 5) {
+                document.getElementById("error").innerText = 'Ошибка в email';
+                return;
+            }
+            if(phone.length < 5) {
+                document.getElementById("error").innerText = 'Ошибка в номере телефона';
+                return;
+            }
+            tg.close();
         })
     </script>
 </body>
