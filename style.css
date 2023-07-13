@@ -61,7 +61,6 @@ button{
     transition: all 500ms ease;
     display: flex;
     justify-content: center;
-    align-items: center;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
 }
