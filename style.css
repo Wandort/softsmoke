@@ -59,12 +59,29 @@ button{
     font-weight: 500px;
     cursor: pointer;
     transition: all 500ms ease;
-    display: flex;
-    justify-content: center;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
 }
 
 button:hover{
     background: var(--tg-theme-secondary-bg-color);
+}
+
+#buy{
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500px;
+    cursor: pointer;
+    transition: all 500ms ease;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
 }
