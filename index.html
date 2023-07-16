@@ -12,7 +12,7 @@
     <div id="main">
         <h1 class="lorem">SoftSmoke</h1>
         <img class="img" src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png">
-        <p>12341234243</p>
+        <p>Жидкость</p>
         <div class="container">
             <div class="inner">
                 <div class="item">
@@ -20,22 +20,76 @@
                     <button class="btn" id="btn1">Добавить</button>
                 </div>
                 <div class="item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Jija" class="img">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="consumables" class="img">
                     <button class="btn" id="btn2">Добавить</button>
                 </div>
                 <div class="item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Jija" class="img">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="pods" class="img">
                     <button class="btn" id="btn3">Добавить</button>
                 </div>
                 <div class="item">
                     <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Jija" class="img">
                     <button class="btn" id="btn4">Добавить</button>
                 </div>
+                <div class="item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Jija" class="img">
+                    <button class="btn" id="btn5">Добавить</button>
+                </div>
+                <div class="item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Jija" class="img">
+                    <button class="btn" id="btn6">Добавить</button>
+                </div>
             </div>
         </div>
         <div class="usercard" id="usercard"></div>
+        <p>Расходники</p>
+        <div class="container">
+            <div class="inner">
+                <div class="item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Jija" class="img">
+                    <button class="btn" id="btn7">Добавить</button>
+                </div>
+                <div class="item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="consumables" class="img">
+                    <button class="btn" id="btn8">Добавить</button>
+                </div>
+                <div class="item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="pods" class="img">
+                    <button class="btn" id="btn9">Добавить</button>
+                </div>
+                <div class="item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Jija" class="img">
+                    <button class="btn" id="btn10">Добавить</button>
+                </div>
+                <div class="item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Jija" class="img">
+                    <button class="btn" id="btn11">Добавить</button>
+                </div>
+                <div class="item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Jija" class="img">
+                    <button class="btn" id="btn12">Добавить</button>
+                </div>
+            </div>
+        </div>
         <button id="buy">Купить</button>
     </div>
+
+    <form id="jija">
+        <img src="https://forumsamogon.ru/wp-content/uploads/7/d/f/7df48be6a0932b80e79cb158e06589fe.jpg">
+    </form>
+
+    <form id="consumables">
+        <img src="http://ecigizek.clan.su/_pu/0/53464617.jpg">
+    </form>
+
+    <form id="pods">
+        <img src="http://inpenza.ru/wp-content/uploads/2022/12/1-31.jpg">
+    </form>
+
+    <form id="free">
+        <img src="http://inpenza.ru/wp-content/uploads/2022/12/1-31.jpg">
+    </form>
+
     <form id="form">
         <input type="text" placeholder="Имя" id="user_name">
         <input type="text" placeholder="Email" id="user_Email">
@@ -115,6 +169,26 @@
             document.getElementById("main").style.display = "none";
             document.getElementById("form").style.display = "block";
             document.getElementById("user_name").value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
+        })
+
+        btn1.addEventListener("click", () => {
+            document.getElementById("main").style.display = "none";
+            document.getElementById("jija").style.display = "block";
+        })
+
+        btn2.addEventListener("click", () => {
+            document.getElementById("main").style.display = "none";
+            document.getElementById("consumables").style.display = "block";
+        })
+
+        btn3.addEventListener("click", () => {
+            document.getElementById("main").style.display = "none";
+            document.getElementById("pods").style.display = "block";
+        })
+
+        btn4.addEventListener("click", () => {
+            document.getElementById("main").style.display = "none";
+            document.getElementById("free").style.display = "block";
         })
 
         order.addEventListener("click", () => {
