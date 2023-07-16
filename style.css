@@ -7,6 +7,15 @@
     align-items: center;
 }
 
+.ttx{
+    color: aqua;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #buy{
     border: 0;
     border-radius: 5px;
