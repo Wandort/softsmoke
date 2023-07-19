@@ -16,6 +16,20 @@
     align-items: center;
 }
 
+.jijaa{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .jijaa:hover {
+    background-color: #0069d9;
+  }
+  
+
 #buy{
     border: 0;
     border-radius: 5px;
