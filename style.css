@@ -18,8 +18,9 @@
 
 .jijaa{
     display: inline-block;
+    text-align: center;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #6c9405;
     color: #fff;
     text-decoration: none;
     border-radius: 10px;
