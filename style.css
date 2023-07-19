@@ -24,6 +24,7 @@
     text-decoration: none;
     border-radius: 10px;
     margin-bottom: 10px;
+    display: grid;
   }
   
   .jijaa:hover {
