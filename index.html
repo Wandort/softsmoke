@@ -200,26 +200,6 @@
             document.getElementById("user_name").value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
         })
 
-        btn1.addEventListener("click", () => {
-            document.getElementById("main").style.display = "none";
-            document.getElementById("jija").style.display = "block";
-        })
-
-        btn2.addEventListener("click", () => {
-            document.getElementById("main").style.display = "none";
-            document.getElementById("consumables").style.display = "block";
-        })
-
-        btn3.addEventListener("click", () => {
-            document.getElementById("main").style.display = "none";
-            document.getElementById("pods").style.display = "block";
-        })
-
-        btn4.addEventListener("click", () => {
-            document.getElementById("main").style.display = "none";
-            document.getElementById("free").style.display = "block";
-        })
-
         order.addEventListener("click", () => {
             document.getElementById("error").innerText = '';
             let name = document.getElementById("user_name").value
