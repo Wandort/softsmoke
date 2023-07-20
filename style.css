@@ -20,7 +20,7 @@
     display: inline-block;
     text-align: center;
     padding: 10px 20px;
-    background-color: rgb(248, 168, 24);
+    background-color: #5E17EB;
     color: #fff;
     text-decoration: none;
     border-radius: 10px;
@@ -29,7 +29,7 @@
   }
   
   .jijaa:hover {
-    background-color: lightgreen;
+    background-color: #F9F6F2;
   }
   
 
@@ -87,7 +87,7 @@
     display: inline-block;
     padding: 10px 20px;
     border: none;
-    background: rgb(248, 168, 24);
+    background: #5E17EB;
     border-radius: 10px;
     color: #fff;
     text-transform: uppercase;
@@ -97,7 +97,7 @@
 }
 
 .btn:hover{
-    background: lightgreen;
+    background: #F9F6F2;
 }
 
 .container{
